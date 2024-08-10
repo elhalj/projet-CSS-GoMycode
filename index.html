@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Projet CSS</title>
+</head>
+<body>
+    <!--entete-->
+    <header>
+        <div id="nav_bar">
+            <div class="logo">
+                <a href="#"><img src="images/logos/first_logo.png" alt="logo_Elhalj"></a>
+            </div>
+            <div class="navbar">
+                <ul class="list_right">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#Work">Work</a></li>
+                    <li><a href="#Resume">Resume</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Motivation">Motivation</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!--corps de page-->
+
+    <main id="main_page">
+        <!--Les differentes sections-->
+        <div id="Work" name="Work">
+            <!--section travail-->
+            <p>My realisation:</p>
+            <div class="project">
+                <div>
+                    <p><a href=""><img src="images/logos/linkedin.png" alt="Calculator project"></a></p>
+                    <p>Calculator</p>
+                </div>
+                <div>
+                    <p><a href=""><img src="images/logos/instagram.png" alt="wheather project"></a></p>
+                    <p>wheather</p>
+                </div><div>
+                    <p><a href=""><img src="images/logos/linkedin.png" alt="Calculator project"></a></p>
+                    <p>BMI Calculato</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="Resume" name="Resume">
+                <!--- section cv-->
+
+            <div id="present">
+                <div class="present_link">
+                    <ul>
+                        <li><a href="#"><img src="images/logos/instagram.png" alt="Facebook"></a></li>
+                        <li><a href="#"><img src="images/logos/meta.png" alt="X"></a></li>
+                        <li><a href="#"><img src="images/logos/meta.png" alt="Instagram"></a></li>
+                        <li><a href="#"><img src="images/logos/meta.png" alt="Linkdin"></a></li>
+                    </ul>
+                </div>
+                <div class="present_text">
+                    <div class="left">
+                        <p><strong>Je suis Wilson Ikeda</strong><br><br>debutant en software developer <br>et bientot senior</p>
+                        <div class="present_link_button">
+                            <p><a href="#">portfolio</a></p>
+                            <button><a href="#"><img src="images/icons/play.png"></a></button>
+                        </div>
+                    </div>
+                    <div class="monImage"><img src="images/profil/profil.jpg" alt="elhalj"></div>
+                </div>
+            </div>
+        </div>
+
+        <div id="About" name="About">
+            <!--section à propos-->
+            <div class="a_propos">
+                <div>
+                    <p><img src="images/icons/react.png" alt="Developpeur front-end"></p>
+                    <p>Developpeur front-end</p>
+                </div>
+                <div>
+                    <p><img src="images/icons/node.png" alt="Developpeur back-end"></p>
+                    <p>Developpeur back-end</p>
+                </div>
+                <div class="a_propos">
+                    <p><img src="images/icons/mongo.png" alt="Developpeur full-stack"></p>
+                    <p>Developpeur full-stack</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="Motivation" name="Motivation">
+            <!--section audio-->
+            <div class="sound_link">
+                <figure>
+                    <figcaption>Ecouter la Motivation:</figcaption>
+                    <br>
+                    <audio controls src="audios/motivation.mp3"></audio>
+                    <br><br>
+                    <p><a href="audios/motivation.mp3"> Telecharcher l'audio</a></p>
+                </figure>
+            </div>
+
+            <!--section video-->
+
+            <div class="video_link">
+                <video controls width="250">
+                    <source src="videos/motivation.mp4" />
+    
+                    <source src="videos/motivation.mp4" type="video/mp4" />
+    
+                    Telecharcher la video
+                    <a href="videos/motivation.mp4">WEBM</a>
+                    or
+                    <a href="videos/motivation.mp4">MP4</a>
+                    video.
+                </video>
+            </div>
+        </div>
+    </main>
+
+    <!--le pieds de page-->
+    <footer id="footer_section">
+        <p>Copyright&copy;2020 Wilson Ikeda</p>
+    </footer>
+</body>
+</html>
